@@ -1,4 +1,4 @@
-/*  引入vant组件 */
+/* 引入vant组件 */
 import Vue from 'vue'
 import {
   Form,
