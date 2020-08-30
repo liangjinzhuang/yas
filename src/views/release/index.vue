@@ -55,7 +55,6 @@
                     native-type="submit">点击上传</van-button>
       </div>
     </van-form>
-
   </div>
 </template>
 
@@ -148,12 +147,11 @@ export default {
   }
 }
 </script>
-
 <style lang="scss" scoped>
 .release-wrapper {
   width: 100%;
-  height: 100%;
   background-color: #f7f8fa;
+  padding-bottom: 50px;
 }
 .block-title {
   margin: 0;
