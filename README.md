@@ -5,5 +5,5 @@
 vue+vue-router+vuex+axios
 # 运行项目
 ## 启动数据库
-    vue install
+    npm install
 
