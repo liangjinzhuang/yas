@@ -5,7 +5,7 @@
 vue+vue-router+vuex+axios
 ## 初始化
     npm install
-## 初始化
+## 运行
     npm run dev
 ## 部分截图
 ![效果](https://github.com/liangjinzhuang/yas/blob/master/demo.jpg)
