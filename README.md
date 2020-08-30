@@ -6,4 +6,4 @@ vue+vue-router+vuex+axios
 ## 启动数据库
     npm install
 ## 部分截图
-https://github.com/liangjinzhuang/yas/blob/master/demo.jpg
+![效果](https://github.com/liangjinzhuang/yas/blob/master/demo.jpg)
