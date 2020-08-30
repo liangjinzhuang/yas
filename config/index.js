@@ -5,7 +5,6 @@ const path = require('path')
 
 module.exports = {
   dev: {
-
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
@@ -18,7 +17,6 @@ module.exports = {
         }
       }
     },
-
     // Various Dev Server settings
     //host: 'localhost', // can be overwritten by process.env.HOST
     host: '127.0.0.1',

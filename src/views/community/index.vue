@@ -22,7 +22,6 @@
             </van-tab>
           </van-tabs>
         </van-list>
-
       </div>
     </div>
   </div>
@@ -33,7 +32,6 @@ import tabber from '@/components/tabber'
 import banner from '@/components/banner'
 import notice from '@/components/notice'
 import tabItem from '@/components/tabItem'
-
 export default {
   name: 'community',
   data () {
@@ -64,11 +62,14 @@ export default {
     }
   },
   created () {
-    this.getBanner()
-    this.getNotice()
-    this.getCateList()
+    this.init()
   },
   methods: {
+    init () {
+      this.getBanner()
+      this.getNotice()
+      this.getCateList()
+    },
     getBanner () {
       this.$axios.banner.bannerList().then(res => {
         this.imgs = res.banner
