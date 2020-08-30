@@ -5,5 +5,5 @@
 vue+vue-router+vuex+egg
 # 运行项目
 ## 启动数据库
-TabTab mysql
+    mysql
 
